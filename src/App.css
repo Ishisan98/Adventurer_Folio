@@ -108,7 +108,13 @@ html, body {
 }
 
 
-.spacing-div {
+.spacing-div-sm {
+  height: 2rem;
+}
+.spacing-div-md {
+  height: 4rem;
+}
+.spacing-div-lg {
   height: 6rem;
 }
 
@@ -126,7 +132,9 @@ html, body {
 .no-bg {
   background-color: transparent !important;
 }
-
+.transparent-bg {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
 
 
 /* Height & Width */
@@ -160,16 +168,20 @@ html, body {
 
 
 
-/* Images */
+/* Images and Icons */
 .profile-pic {
   max-width: 85%;
   border-radius: 10px;
   margin: auto;
 }
-.icon {
-  max-height: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
+.icon-sm {
+  max-height: 1.5em;
+}
+.icon-md {
+  max-height: 3.5em;
+}
+.icon-lg {
+  max-height: 5.5em;
 }
 .character-img {
   max-width: 70%;
@@ -188,7 +200,7 @@ html, body {
 
 .custom-title-sm {
   font-weight: bold !important ;
-  padding-left: 10px;
+  font-size: 1.5em;
 }
 .custom-title-md {
   font-weight: bold !important ;
@@ -202,7 +214,6 @@ html, body {
   font-weight: bold !important ;
   font-size: 2em; 
 }
-
 .custom-text-sm {
   font-size: 1rem !important;
 }

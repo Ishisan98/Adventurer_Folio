@@ -6,8 +6,9 @@ import Card from 'react-bootstrap/Card';
 
 import NavBar from '../components/NavBar';
 import Introduction from '../components/Introduction';
+import Skills from '../components/Skills';
 
-const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+// const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 
 function Main() {
 
@@ -19,24 +20,15 @@ function Main() {
                     <Introduction />
                 </Animator>
             </ScrollPage>
-
+            
             <ScrollPage>
-                <Animator animation={ZoomInScrollOut}>
-                    <Card>
-                        <Card.Body>
-                            <h2>Card is a card</h2>
-                        </Card.Body>
-                    </Card>
+                <Animator className="full-width full-height">
+                    <Skills />
                 </Animator>
             </ScrollPage>
 
             <ScrollPage>
-                <Animator animation={ZoomInScrollOut}>
-                    <Card>
-                        <Card.Body>
-                            <h2>Card is a card</h2>
-                        </Card.Body>
-                    </Card>
+                <Animator className="full-width">
                 </Animator>
             </ScrollPage>
 

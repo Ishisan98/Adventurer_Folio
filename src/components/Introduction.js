@@ -33,8 +33,8 @@ function Introduction() {
 
             <div className="float-sm-start col-sm-1 col-12"></div>
 
-            <div className="float-sm-end col-sm-6 col-12 vertical-center-column">
-                <motion.div className="full-width" initial="hidden" animate="visible" variants={slideInAnimation(1.5, '100%', 100)}>
+            <div className="float-sm-end col-sm-6 col-12">
+                <motion.div className="full-width" initial="hidden" animate="visible" variants={slideInAnimation(1.5, '100%', '20%')}>
                     <img src={require('../../src/images/character.png')} className="character-img pr-lg" alt="character-img" />
                 </motion.div>
             </div>
